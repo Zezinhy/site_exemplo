@@ -1,0 +1,23 @@
+html{font-family: 'poppins', 'sans-serif'
+}
+.container {
+        display: flex;
+    }
+
+    .box {
+        width: 50%;
+        border: 1px solid #000;
+        box-sizing: border-box;
+    }
+
+    .box:nth-child(1)  {
+        background-color: #000000
+    }
+
+    .box:nth-child(2)  {
+        background-color: #000000
+    }
+
+    .box:nth-child(3)  {
+        background-color: #00000
+    }
