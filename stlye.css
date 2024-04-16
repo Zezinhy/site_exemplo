@@ -1,23 +1,33 @@
-html{font-family: 'poppins', 'sans-serif'
+HTML-CSS
+/*reset*/
+body{
+     margin:0;
 }
-.container {
-        display: flex;
-    }
+/geral/
+html{
+     font-family: 'open sans', sans-serif;
+}
+h1,h2,h3,h4,h5,p,span {
+     margin:0;
+     color:#666;
+}
+•container {
+     max-width: 1920 px;
+     width:100%;
+}
+header{
+     position: relative;
+     top: 0;
+      height:auto;
+      width:100%
+}
+nav{
+    position: fixed;
+    top: 0;
+     height: 100px;
+     width: 100%;
+     z-index: 1;
+     background-color:#FFF;
+     border-bottom:1px solid#CCC;
+}
 
-    .box {
-        width: 50%;
-        border: 1px solid #000;
-        box-sizing: border-box;
-    }
-
-    .box:nth-child(1)  {
-        background-color: #000000
-    }
-
-    .box:nth-child(2)  {
-        background-color: #000000
-    }
-
-    .box:nth-child(3)  {
-        background-color: #00000
-    }
